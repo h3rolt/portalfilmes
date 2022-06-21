@@ -1,0 +1,295 @@
+html {
+    height: 100%;
+}
+
+small {
+    font-size: 0.7em;
+}
+
+h4 {
+    line-height: normal;
+}
+
+body,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+header,
+iframe {
+    width: 100%;
+}
+
+body {
+    background-color: #dcdcdc;
+}
+
+.title-row,
+.copyright-col {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    button.btn.btn-info.float-right {
+        width: 100%;
+    }
+}
+
+p.card-text {
+    font-size: 0.8em;
+}
+
+section {
+    padding: 10px 0px;
+    border-radius: 3px;
+    margin-bottom: 35px;
+}
+
+footer {
+    padding: 20px 0px;
+    box-shadow: 0 0 1em;
+}
+
+@media (max-width: 767px) {
+    .footer-icon {
+        text-align: center;
+    }
+}
+
+div.carousel-item div.lancamento-poster {
+    text-align: center;
+}
+
+div.carousel-item div.lancamento-poster img {
+    width: auto;
+}
+
+div.container section#section-lancamentos {
+    padding-top: 80px;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse {
+    font-size: 0.9em;
+    line-height: normal;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse strong {
+    font-size: 1.1em;
+}
+
+div#carousel-lancamentos div.carousel-item div.row>div {
+    margin-bottom: 10px;
+}
+
+div#carousel-lancamentos div.carousel-inner {
+    padding-bottom: 30px;
+    min-height: 430px;
+}
+
+@media (min-width: 991px) {
+    div#carousel-lancamentos div.carousel-inner {
+        padding-bottom: 50px;
+    }
+}
+
+div#carousel-lancamentos ol.carousel-indicators .active {
+    background-color: #290e5d;
+}
+
+section#section-destaque {
+    padding-top: 20px;
+}
+
+.filme-destaque {
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+section#section-avaliacoes div.cards-avaliacao div.col-12 {
+    margin-bottom: 10px;
+}
+
+section#section-avaliacoes div.cards-avaliacao div.card {
+    min-height: 200px;
+}
+
+section#section-entrevistas div.card {
+    background: gainsboro;
+    border-color: gainsboro;
+}
+
+section#section-entrevistas div.card h5.card-title {
+    font-size: 1.2em;
+}
+
+section#section-novidades div.sobre-col {
+    line-height: normal;
+    font-size: 0.9em;
+}
+
+section#section-novidades div.novidades-col {
+    margin-bottom: 50px;
+}
+
+.lancamento-poster {
+    padding-bottom: 20px;
+}
+
+div.container section#section-filme {
+    padding: 80px 10px 5px;
+    overflow: hidden;
+}
+
+section#section-filme img {
+    width: auto;
+    height: auto;
+}
+
+section#section-filme .lancamento-poster {
+    text-align: center;
+}
+
+.filme-sinopse {
+    font-size: 0.9em;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.filme-sinopse strong {
+    font-size: 1.1em;
+}
+
+.votos {
+    color: black;
+    font-size: 0.7em;
+}
+
+a {
+    color: #290e5d;
+}
+
+.produtoras-row {
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (min-width: 991px) {
+    .produtoras-row {
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+    }
+}
+
+div.container section#section-pesquisa {
+    padding: 80px 10px 5px;
+    overflow: hidden;
+}
+
+section#section-pesquisa img {
+    height: auto;
+    min-width: 100%;
+}
+
+.page-item.disabled .text-info {
+    color: gray !important;
+}
+
+.redeSocial {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logotipo {
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.logotipoFooter {
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.text-info {
+    color: #290e5d!important;
+}
+
+.btn-outline-info {
+    color: #fdd501;
+    border-color: #fdd501;
+}
+
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #290e5d;
+    border-color: #290e5d;
+}
+
+div.container section#section-lancamentos {
+    margin-top: 110px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #290e5d;
+    border-color: #290e5d;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #fdd501;
+    border-color: #fdd501;
+}
+
+.bg-dark {
+    background-color: #dcdcdc!important;
+    box-shadow: 0 0 1em black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #290e5d;
+    font-weight: bolder;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #dcbd18;
+}
+
+.dark-background {
+    background-color: #dcdcdc;
+}
+
+section#section-entrevistas div.card {
+    background: #fff;
+}
+
+section#section-novidades div.novidades-col {
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
